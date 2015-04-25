@@ -1,0 +1,299 @@
+/*
+Theme Name: Futuretree
+Theme URI: http://futuretree.com
+Description: The future of mobile and dynamic news and infrmation
+Version: 1.0
+Author: Jeremy Zilar
+Author URI: http://jeremyzilar.com/
+*/
+
+/*FONTS
+font-family: 'Lato', sans-serif;
+*/
+
+
+#grid-displayer-tools{
+  display: none;
+}
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color:#2d2d2d;
+}
+
+a{
+  color:#F16B6D;
+}
+a:hover{
+  text-decoration: underline;
+  color:#F16B6D; 
+}
+
+hr{
+  margin:48px auto;
+  width: 50%;
+  border-bottom: 1px #ccc solid;
+}
+
+h1 {
+  margin:0 0 20px 0;
+  font-weight: 900;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+
+h3 {
+  margin:0 0 40px 0;
+  font-weight: 900;
+  font-size: 28px;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+
+h4 {
+  margin:0 0 25px 0;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+h6 {
+  margin:0 0 15px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /*text-shadow: 0 2px rgba(0,0,0,0.15);*/
+}
+
+
+#related {
+  background: #ffdaca;
+}
+
+section{
+  padding:65px 0;
+  background: #efefef;
+}
+
+.container{
+  /*max-width:660px;*/
+}
+
+
+/*HEAD*/
+#head{
+  color: #1a3d64;
+}
+#head h1{
+  margin:0 0 20px 0;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 48px;
+}
+#head h1 img{
+  margin-left:2px;
+  width:150px;
+
+}
+#head h2 {
+  margin:0;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+#head h4 {
+  margin:0;
+  margin-top: 50px;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+#head h4 span{
+  font-weight: 400;
+}
+
+.table-green{
+  background: #c3f5c8;
+}
+
+
+
+.story{
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+}
+.story .kicker{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.story h6 span{
+  border-bottom: #f16e75 2px solid;
+  line-height: 21px;
+}
+.story .head{
+  margin-top: 0;
+}
+.story .head a{
+  color: #333;
+}
+.story h3{
+  margin-bottom: 18px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+}
+.story h4{
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 24px; 
+
+}
+.story .summary,
+.story .content{
+  font-family: Georgia;
+}
+
+.story .more{
+  font-family: 'Lato'; 
+  font-size: 16px;
+  font-weight: 600;
+}
+.story .byline {
+  color: #999;
+  font-size: 14px;
+}
+.story .date{
+  margin-bottom: 2px;
+  color: #999;
+  font-size: 13px;
+}
+.story .date a{
+  color: #ccc;
+}
+.story .media{
+  margin-top: 2px;
+  margin-bottom: 18px;
+}
+
+/*Story 2*/
+.story-col-2{}
+.story-col-2 .media{
+  margin-bottom: 6px;
+}
+.story-col-2 .kicker{
+  margin-bottom: 6px;
+}
+.story-col-2 .head{
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 800;
+}
+
+.story-col-2 .summary{
+  font-size: 14px;
+  line-height: 17px; 
+}
+.story-col-2 .summary p{
+  margin-bottom: 5px;
+}
+.story-col-2 .more{
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/*Element Head*/
+
+.element-head{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #1a3d64;
+}
+
+.element-head h4{
+  padding: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 21px;
+  border-bottom: 1px #1a3d64 solid;
+}
+
+.t_tag{
+  margin-bottom: 15px;
+  padding: 1px 8px 2px 8px;
+  color:#555;
+  background: #ffe75a;
+  background: rgba(255,231,90,.8);
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.block{
+  background: #c9c9c9;
+}
+
+.page-head{
+  min-height: 150px;
+  background: #b2d6f6;
+}
+.article{
+  min-height: 1200px;
+}
+.outbrain{
+  background: #a0bbff;
+  min-height: 120px;
+}
+.related{
+  margin-bottom: 5px;
+  background: #c9c9c9;
+  min-height: 100px;
+}
+
+.ad-wrap{
+  margin-bottom: 25px;
+  background-color: #333;
+}
+.ad{
+  text-align: center;
+  background: #ffada7;
+}
+.ad-big{
+  min-height: 300px;
+}
+
+.ad-banner{
+  margin-left:auto;
+  margin-right:auto;
+  min-height: 100px;
+  /*width: 70%;*/
+}
+
+.ad-native{
+  background: #ffdc6f;
+}
+
+
+.newsletter-item{
+  padding: 20px;
+  border-top: 1px #666 solid;
+}
+.newsletter-item h5{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.ad.affix{
+  top:0px;
+}
+
+
+/*Footer*/
+#footer{
+  font-weight: 600;
+}
+#footer p{
+  font-size:15px;
+}

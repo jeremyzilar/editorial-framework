@@ -1,0 +1,42 @@
+/*
+Hide code snippets on mobile devices
+XS
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+@media screen and (max-width: 767px) {
+
+
+}
+
+/*
+Tablets and up
+SM
+*/
+@media screen and (min-width: 768px) {
+	
+	.frame {
+		margin: 30px;
+	}
+	.frame{
+	  background: #fff; 
+	}
+
+}
+
+/*
+Tablets/desktops and up
+MD
+*/
+@media screen and (min-width: 992px) {
+
+	
+}
+
+
+/*
+Large desktops and up
+LG
+*/
+@media screen and (min-width: 1200px) {
+
+}
